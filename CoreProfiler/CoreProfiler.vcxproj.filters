@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CoreProfiler_i.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="xdlldata.c">
+      <Filter>Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ILRewriter.cpp">
+      <Filter>IL</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreProfiler.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicClrProfiler.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="ProfilerData.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="ClrModule.cpp">
+      <Filter>Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICorProfilerCallback2Impl.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ICorProfilerCallback3Impl.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ICorProfilerCallbackImpl.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreProfiler_i.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="xdlldata.h">
+      <Filter>Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ILRewriter.h">
+      <Filter>IL</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicClrProfiler.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ProfilerData.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="ClrModule.h">
+      <Filter>Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CoreProfiler.def">
+      <Filter>Basic</Filter>
+    </None>
+    <None Include="CoreProfiler.rgs">
+      <Filter>Basic</Filter>
+    </None>
+    <None Include="sigparse.inl">
+      <Filter>IL</Filter>
+    </None>
+    <None Include="BasicClrProfiler.rgs">
+      <Filter>Basic</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{c480bd38-9c02-41ce-8401-2286582efbcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IL">
+      <UniqueIdentifier>{8f4bb5ba-b35b-489c-9cc3-8d3e81779179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiler">
+      <UniqueIdentifier>{513e59c8-5bf9-40fb-baf7-09dbf7eb197b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Basic">
+      <UniqueIdentifier>{8e7592a6-9815-405b-adcd-93cb16680bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{810add88-6542-4517-90b3-6b95d7d819bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="CoreProfiler.idl">
+      <Filter>Basic</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CoreProfiler.rc">
+      <Filter>Basic</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+// CoreProfiler.idl : IDL source for SampleProfiler
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (CoreProfiler.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(59B8AB6F-4881-4DD5-8553-73B930D2DB98),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IBasicClrProfiler : IDispatch{
+};
+[
+	uuid(9B971B53-871A-4EF8-A421-F35F640F926F),
+	version(1.0),
+]
+library CoreProfilerLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(F89DDF6B-9451-4EA9-8E02-7902E61C0BCC)		
+	]
+	coclass BasicClrProfiler
+	{
+		[default] interface IBasicClrProfiler;
+	};
+};
+
